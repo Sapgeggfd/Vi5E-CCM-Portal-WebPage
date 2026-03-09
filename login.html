@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestLogin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="glassContainer">
+        <form class="styledForm">
+            <div class="styledFields">
+                <label for="loginEmail">E-Mail</label>
+                <input class="glassContainer" id="loginEmail" type="email">
+
+                <label for="loginPassword">Password</label>
+                <input class="glassContainer" id="loginPassword" type="password">
+
+                <button class="glassContainer" type="submit">Login</button>
+            </div>
+
+            <span class="divider">or</span>
+
+            <div class="authProvider">
+                <button class="glassContainer authDiscord">
+                    <span>Login with</span>
+                    <img src="discord-icon-svgrepo-com.svg">
+                </button>
+            </div>
+            <span>You don't have an Account?</span>
+            <span> SignUP<a class="styledLink" href="/signup.html">here</a></span>
+        </form>
+    </div>
+</body>
+
+</html>

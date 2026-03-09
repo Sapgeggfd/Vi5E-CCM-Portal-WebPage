@@ -1,0 +1,48 @@
+:root {
+    --blur-amount: 20px;
+}
+
+.divider {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    margin: 0 1ch 0 1ch;
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.divider span {
+    padding: 0 10px;
+    color: #666;
+}
+
+.glassContainer {
+    backdrop-filter: blur(var(--blur-amount));
+    background: hsla(0, 0%, 78%, 0.05);
+    border-radius: 16px;
+    border: whitesmoke solid 1px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.8);
+}
+
+.glassContainer button:hover,
+input:hover,
+button:focus,
+input:focus {
+    background: hsla(0, 0%, 30%, 0.25);
+}
+
+.styledLink {
+    color: #a786dc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.styledLink:hover {
+    color: #caa6ff;
+}

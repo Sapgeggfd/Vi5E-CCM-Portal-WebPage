@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-size: cover;
+    background-position: center;
+    background-image: url("/bg_3.png");
+    font-family: "Poppins", "Inter", sans-serif;
+    animation: gradientMove 15s ease-in-out infinite;
+    color: whitesmoke;
+}
+
+header {
+    margin: 0 15px;
+    margin-top: 15px;
+}
+
+main {
+    margin: 0 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 100vw;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 auto;
+}
+
+.profile {
+    width: 40px;
+    padding: 0 30px;
+}
+
+.mainContent {
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.styledLink {
+    color: #de45d9;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.styledLink:hover {
+    color: #caa6ff;
+}
+
+.mainFlex {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+.mainFlex div {
+    padding: 5px;
+}

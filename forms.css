@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/bg_3.png");
+    font-family: "Poppins", "Inter", sans-serif;
+    animation: gradientMove 15s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.styledForm {
+    width: 40vw;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.styledForm * {
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.styledFields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.styledFields label {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.styledFields input {
+    width: 70%;
+    margin: 5px;
+    padding: 15px;
+}
+
+.styledFields button {
+    width: 70%;
+    margin-top: 30px;
+    padding: 8px 0px;
+}
+
+.authProvider {
+    display: flex;
+    flex-direction: column;
+}
+
+.authDiscord {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.authDiscord img {
+    height: 35px;
+}
