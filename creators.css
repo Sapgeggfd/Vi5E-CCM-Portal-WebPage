@@ -56,6 +56,9 @@ nav ul li {
     overflow: hidden;
     text-overflow: clip;
 }
+.creatorCard:hover {
+    background: hsla(0, 0%, 30%, 0.25);
+}
 
 .cardHead {
     display: flex;
