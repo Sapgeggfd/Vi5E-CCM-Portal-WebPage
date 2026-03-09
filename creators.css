@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-size: cover;
+    background-position: center;
+    background-image: url("/bg_3.png");
+    font-family: "Poppins", "Inter", sans-serif;
+    animation: gradientMove 15s ease-in-out infinite;
+    color: whitesmoke;
+}
+
+header {
+    margin: 0 15px;
+    margin-top: 15px;
+}
+
+main {
+    margin: 0 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 100vw;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 auto;
+}
+
+.profile {
+    width: 40px;
+    padding: 0 30px;
+}
+
+.creators {
+    margin: 15px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.creatorCard {
+    flex: 0 0 calc(100% / 3);
+    padding: 15px;
+    /* width: 350px; */
+    /* height: 200px; */
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.cardHead {
+    display: flex;
+    gap: 20px;
+}
+
+.cardHead img {
+    height: 100px;
+}

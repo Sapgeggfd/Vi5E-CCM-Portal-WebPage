@@ -52,12 +52,14 @@ body {
 }
 
 .styledFields input {
+    border: none;
     width: 70%;
     margin: 5px;
     padding: 15px;
 }
 
 .styledFields button {
+    border: none;
     width: 70%;
     margin-top: 30px;
     padding: 8px 0px;
